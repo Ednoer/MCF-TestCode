@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BpkbApi", "BpkbApi\BpkbApi.csproj", "{5B21C5C2-C952-4AD8-A3DB-4BD2C02FC668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B21C5C2-C952-4AD8-A3DB-4BD2C02FC668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B21C5C2-C952-4AD8-A3DB-4BD2C02FC668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B21C5C2-C952-4AD8-A3DB-4BD2C02FC668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B21C5C2-C952-4AD8-A3DB-4BD2C02FC668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
