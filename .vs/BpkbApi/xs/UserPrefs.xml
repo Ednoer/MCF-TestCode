@@ -5,27 +5,40 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="BpkbApi/Repositories/ITrBpkb.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BpkbApi/appsettings.Development.json">
     <Files>
-      <File FileName="BpkbApi/Repositories/UserRepository.cs" Line="1" Column="1" />
-      <File FileName="BpkbApi/Repositories/ITrBpkb.cs" Line="12" Column="6" />
+      <File FileName="BpkbApi/Program.cs" Line="24" Column="57" />
+      <File FileName="BpkbApi/Repositories/IUserRepository.cs" Line="6" Column="22" />
+      <File FileName="BpkbApi/Repositories/ITrBpkbRepository.cs" Line="11" Column="57" />
+      <File FileName="BpkbApi/Repositories/UserRepository.cs" Line="10" Column="32" />
+      <File FileName="BpkbApi/Repositories/TrBpkbRepository.cs" Line="49" Column="55" />
+      <File FileName="BpkbApi/Services/ITrBpkbService.cs" Line="10" Column="14" />
+      <File FileName="BpkbApi/Services/TrBpkbService.cs" Line="41" Column="48" />
+      <File FileName="BpkbApi/Services/UserService.cs" Line="1" Column="1" />
+      <File FileName="BpkbApi/Controllers/AuthController.cs" Line="1" Column="1" />
+      <File FileName="BpkbApi/Controllers/TrBpkbController.cs" Line="47" Column="38" />
+      <File FileName="BpkbApi/Helpers/GetInfoUser.cs" Line="7" Column="45" />
+      <File FileName="BpkbApi/Models/TrBpkb.cs" Line="42" Column="56" />
+      <File FileName="BpkbApi/Models/Login.cs" Line="1" Column="1" />
+      <File FileName="BpkbApi/Models/RequestTrBpkb.cs" Line="9" Column="38" />
+      <File FileName="BpkbApi/appsettings.Development.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BpkbApi">
-            <Node name="BpkbApi">
+            <Node name="BpkbApi" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
-                <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
+              <Node name="Helpers" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Repositories" selected="True" />
-              <Node name="Service" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>

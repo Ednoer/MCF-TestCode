@@ -23,6 +23,9 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITrBpkbRepository, TrBpkbRepository>();
 builder.Services.AddScoped<ITrBpkbService, TrBpkbService>();
 
+builder.Services.AddScoped<IStorageLocationRepository, MsStorageLocationRepository>();
+builder.Services.AddScoped<IStorageLocationService, MsStorageLocationService>();
+
 // JWT Configuration
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
