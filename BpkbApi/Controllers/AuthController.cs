@@ -24,14 +24,14 @@ namespace BpkbApi.Controllers
             _configuration = configuration;
         }
 
-        [HttpPost("register")]
+        [HttpPost("Register")]
         public async Task<IActionResult> Register([FromBody] Register model)
         {
             await _userService.RegisterAsync(model.Username, model.Password);
             return Ok();
         }
 
-        [HttpPost("login")]
+        [HttpPost("Login")]
         public async Task<IActionResult> Login([FromBody] Login model)
         {
             var user = await _userService.AuthenticateAsync(model.Username, model.Password);

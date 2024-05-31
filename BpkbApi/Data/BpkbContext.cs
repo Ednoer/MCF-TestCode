@@ -17,6 +17,12 @@ namespace BpkbApi.Data
             modelBuilder.Entity<TrBpkb>()
                 .HasKey(e => e.AgreementNumber);
 
+            modelBuilder.Entity<MsStorageLocation>()
+                .HasKey(e => e.LocationId);
+
+            modelBuilder.Entity<MsUser>()
+                .HasKey(e => e.UserId);
+
             modelBuilder.Entity<TrBpkb>()
                 .HasOne(p => p.Location)
                 .WithMany(b => b.TrBpkbs)

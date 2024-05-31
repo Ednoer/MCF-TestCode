@@ -5,17 +5,27 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BpkbApi/Repositories/ITrBpkb.cs">
+    <Files>
+      <File FileName="BpkbApi/Repositories/UserRepository.cs" Line="1" Column="1" />
+      <File FileName="BpkbApi/Repositories/ITrBpkb.cs" Line="12" Column="6" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BpkbApi" expanded="True" selected="True">
+          <Node name="BpkbApi">
             <Node name="BpkbApi">
               <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="Repositories" selected="True" />
+              <Node name="Service" expanded="True" />
             </Node>
           </Node>
         </State>

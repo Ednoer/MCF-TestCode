@@ -24,10 +24,10 @@
 
   <ItemGroup>
     <None Remove="Repositories\" />
-    <None Remove="Service\" />
+    <None Remove="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
-    <Folder Include="Service\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@ using BCrypt.Net;
 using BpkbApi.Repositories;
 using BpkbApi.Services;
 
-namespace UserProfileApi.Services
+namespace BpkbApi.Services
 {
     public class UserService : IUserService
     {

@@ -5,7 +5,7 @@ using BpkbApi.Data;
 using BpkbApi.Models;
 using BpkbApi.Repositories;
 
-namespace UserProfileApi.Repositories
+namespace BpkbApi.Repositories
 {
     public class UserRepository : IUserRepository
     {

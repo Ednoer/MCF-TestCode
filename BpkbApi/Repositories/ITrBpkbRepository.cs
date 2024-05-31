@@ -6,6 +6,8 @@ namespace BpkbApi.Repositories
     public interface ITrBpkbRepository
     {
         Task<TrBpkb> GetTrBpkb();
-        Task UpsertTrBpkb(TrBpkb trBpkb);
+
+        //insert or update if trBpkb is exist
+        Task UpsertTrBpkb(TrBpkb trBpkb, string username);
     }
 }

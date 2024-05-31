@@ -5,8 +5,9 @@ using BpkbApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using UserProfileApi.Repositories;
-using UserProfileApi.Services;
+using BpkbApi.Repositories;
+using BpkbApi.Services;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,9 @@ builder.Services.AddDbContext<BpkbContext>(options =>
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddScoped<ITrBpkbRepository, TrBpkbRepository>();
+builder.Services.AddScoped<ITrBpkbService, TrBpkbService>();
 
 // JWT Configuration
 var jwtSettings = builder.Configuration.GetSection("Jwt");
@@ -48,6 +52,36 @@ builder.Services.AddSwaggerGen();
 
 // Data Seed
 builder.Services.AddTransient<DataSeeder>();
+
+// Swagger Configuration
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "UserProfile API", Version = "v1" });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please enter a valid token",
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        BearerFormat = "JWT",
+        Scheme = "Bearer"
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
+
 
 var app = builder.Build();
 
