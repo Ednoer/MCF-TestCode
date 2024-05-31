@@ -1,18 +1,46 @@
 ﻿<Properties StartupConfiguration="{2E04DE69-A4DE-4030-95FE-17B9C16491C8}|https">
-  <MonoDevelop.Ide.ItemProperties.BpkbMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BpkbMvc/Services/AuthService.cs">
+    <Files>
+      <File FileName="BpkbMvc/Views/Login/Index.cshtml" Line="1" Column="1" />
+      <File FileName="BpkbMvc/Controllers/LoginController.cs" Line="33" Column="47" />
+      <File FileName="BpkbMvc/Services/AuthService.cs" Line="40" Column="10" />
+      <File FileName="BpkbMvc/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="BpkbMvc/Program.cs" Line="22" Column="56" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BpkbMvc" selected="True" />
+          <Node name="BpkbMvc" expanded="True">
+            <Node name="BpkbMvc">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="AuthService.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Login" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="TrBpkb" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BpkbMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
